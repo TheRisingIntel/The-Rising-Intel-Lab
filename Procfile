@@ -1,0 +1,1 @@
+web: gunicorn the-rising-intel-lab.wsgi --log-file -
