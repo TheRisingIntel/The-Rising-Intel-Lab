@@ -1,1 +1,53 @@
--r requirements/prod.txt
+# A4
+git+https://github.com/liqd/adhocracy4.git@69e26d814be6593137c6335dba405f873fd087f3#egg=adhocracy4
+
+# Additional requirements
+bcrypt==3.2.0
+brotli==1.0.9
+django-capture-tag==1.0
+django-cloudflare-push==0.2.0
+django_csp==3.7
+django-parler==2.2
+sentry-sdk==1.4.0
+wagtail==2.11.8 # pyup: <2.12
+whitenoise==5.3.0
+xmltodict==0.12.0
+zeep==4.1.0
+
+# Obsolete in Django >= 3.1
+django-samesite-none==0.0.3
+
+# Inherited a4-core requirements
+bleach==4.1.0
+Django==2.2.24 # pyup: <2.3
+django-allauth==0.45.0
+django-autoslug==1.9.8
+django-background-tasks==1.2.5
+django-ckeditor==6.1.0
+django-filter==2.4.0
+django-enumfield==2.0.2
+django-multiselectfield==0.1.12
+django-widget-tweaks==1.4.8
+djangorestframework==3.12.4
+easy-thumbnails==2.7.1
+html5lib==1.1
+jsonfield==3.1.0
+psycopg2-binary==2.8.6 # pyup: <2.9
+python-dateutil==2.8.2
+python-magic==0.4.24
+rules==3.0
+XlsxWriter==1.4.5
+-r base.txt
+django-debug-toolbar==3.2.2
+factory-boy==3.2.0
+Faker==8.12.1
+flake8-docstrings==1.6.0
+flake8==3.9.2
+freezegun==1.1.0
+isort==5.9.3
+pytest-cov==2.12.1
+pytest-django==4.4.0
+pytest-factoryboy==2.1.0
+pytest==6.2.5
+transifex-client==0.14.3
+gunicorn==20.1.0
