@@ -16,7 +16,7 @@ Brotli==1.0.9
 cached-property==1.5.2
 certifi==2019.11.28
 cffi==1.14.6
-chardet==3.0.4
+#chardet==3.0.4
 #Click==7.0
 #colorama==0.4.3
 command-not-found==0.3
