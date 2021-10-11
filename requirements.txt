@@ -1,4 +1,4 @@
-adhocracy4==0.0.0.dev1
+#adhocracy4==0.0.0.dev1
 anyascii==0.3.0
 apturl==0.5.2
 argon2-cffi==21.1.0
