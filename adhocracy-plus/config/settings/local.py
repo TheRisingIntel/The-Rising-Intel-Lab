@@ -1,6 +1,6 @@
 # replace 'your.domain' with your desired domain
 BASE_URL = ' http://127.0.0.1:8000 '
-ALLOWED_HOSTS = [u'*', u' http://127.0.0.1:8000 ']
+ALLOWED_HOSTS = [u'eagleabove1.herokuapp.com', u'127.0.0.1']
 
 # database config - we recommend postgresql for production purposes
 DATABASES = {
@@ -18,7 +18,7 @@ EMAIL_BACKEND='django.core.mail.backends.smtp.mailcoat.com'
 EMAIL_HOST='smtp.mailcoat.com'
 
 # folder for user-uploads, directly served from the webserver (see nginx example below). Must be created manually.
-MEDIA_ROOT='/home/azeez/TRI_2/aplus-media'
+MEDIA_ROOT='/home/azeez/TRI-copy/aplus-media'
 
 # replace the value below with some random value
 SECRET_KEY = '8lu*6g0lg)9z!ba+a$ehk)xt)x%rxgb$i1&amp;022shmi1jcgihb*'
