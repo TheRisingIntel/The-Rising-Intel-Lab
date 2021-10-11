@@ -18,7 +18,7 @@ EMAIL_BACKEND='django.core.mail.backends.smtp.mailcoat.com'
 EMAIL_HOST='smtp.mailcoat.com'
 
 # folder for user-uploads, directly served from the webserver (see nginx example below). Must be created manually.
-MEDIA_ROOT='The-Rising-Intel-Lab/aplus-media'
+MEDIA_ROOT='/images/'
 
 # replace the value below with some random value
 SECRET_KEY = '8lu*6g0lg)9z!ba+a$ehk)xt)x%rxgb$i1&amp;022shmi1jcgihb*'
